@@ -2,7 +2,7 @@ package com.kh.run;
 
 import com.kh.variable.*;
 
-public class Run {
+public class Run1 {
 	
 	public static void main(String[] args) {
 		A_Variable av = new A_Variable();

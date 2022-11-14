@@ -86,13 +86,13 @@ public class A_For {
 		//i값이 1에서부터 10사이의 홀수만 입력
 		// 1 3  5 7 9
 		
-		for(int i=1; 1<=10; i++) {
+		for(int i=1; i<=10; i++) {
 			if(i % 2 ==1) {
 				System.out.print(i+" ");
 			}
 		}
 		
-		System.out.println();
+		//		System.out.println();
 		
 		for(int i=1; i<10; i+=2) {
 			

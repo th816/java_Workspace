@@ -22,7 +22,7 @@ public class RUN {
 		//bw.method2();
 		//bw.method3();
 		//bw.method5();
-		bw.method7();
+		//bw.method7();
 	}
 	
 	

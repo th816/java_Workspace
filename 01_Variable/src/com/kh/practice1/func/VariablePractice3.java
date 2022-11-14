@@ -10,7 +10,7 @@ public class VariablePractice3 {
 			Scanner sc = new Scanner(System.in);
 			
 			System.out.print("가로 : ");
-			double width = sc.nextDoble();
+			double width = sc.nextDouble();
 			
 			System.out.print("세로 : ");
 			double height = sc.nextDouble();
