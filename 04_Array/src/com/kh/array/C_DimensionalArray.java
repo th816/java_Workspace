@@ -190,27 +190,32 @@ public class C_DimensionalArray {
 		int[][] arr = new int [2][3]; 
 		for(int i= 0; i<arr.length; i++) {
 			for(int j = 0; j< arr[i].length; j++) {
-				if(i == 0) {
-					System.out.print("국어 : ");
-				}else {
-					System.out.print("영어 : ");
-				}
+			System.out.printf("%s점수를 입력하세요 : ", i == 0 ? "국어" : "영어");
 				arr[i][j] = sc.nextInt();
-				
 			}
-			System.out.println("점수를 입력하세요 : ");
-			
-			}
+		}
 		
 	
-	
-	
-		
-	
-	
-	
-	
-	
+		for(int i= 0; i<arr.length; i++) {
+			System.out.printf("%s점수 : ", i == 0 ? "국어" : "영어");	
+			for(int j = 0; j< arr[i].length; j++) {
+				System.out.print(arr[i][j]+" ");
+			}
+			System.out.println();
+		}
+
 	
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
