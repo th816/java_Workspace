@@ -28,7 +28,7 @@ public class Student {
 	
 	// 이름값을 기록 및 수정할수 있는 기능의 메소드(name필드에 값을 넣기위한 용도)
 	// set+필드명=> 두 단어를 이어줄때 카멀케이스(낙타등표기법)활용하여 메서드명 선언
-	public void setnameHi(String name) {
+	public void setName(String name) {
 		// 매개변수 : 해당 메소드 호출시 전달되는 값을 받아주기 위한 변수
 		
 		// name = name

@@ -34,11 +34,24 @@ public class Run {
 		 */
 		
 		//setter메서드 호출
-		hong.setname("홍길동");
+		hong.setName("홍길동");
 		hong.setAge(20);
 		hong.setHeight(179.1);
 		
+		System.out.println(hong.getName());
+		System.out.println(hong.getAge());
+		System.out.println(hong.getHeight());
+		
+		
 		System.out.println(hong.information());
+		
+		Student min = new Student();
+		min.setName("민경민");
+		min.setAge(32);
+		min.setHeight(182.1);
+		
+		System.out.println(min.information());
+		
 		
 	}
 
