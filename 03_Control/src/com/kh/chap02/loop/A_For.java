@@ -323,19 +323,11 @@ public class A_For {
 		public void method16() {
 			// 2단부터 ~ 9단까지 모두~ 출력
 			
-			int dan = 2;
+		
+		for(int i =1; i<=10; i++) {
 			
-			//System.out.printf("---%d 단--- \n", dan);
-			//for(int i =1; i<=9; i++) {
-				//System.out.printf("%d X %d = %d \n ", dan, i, dan * i);
-			//}
-			
-			for(; dan <= 9; dan++) {
-				System.out.printf("---%d 단--- \n", dan);
-				for(int i = 1; i<= 9; i++) {
-					System.out.printf("%d X %d = %d \n ", dan, i, dan * i);
-			}
-				System.out.println();
-	 }	
-}
+			System.out.println(2+"*"+i + "=" + (2*i));
+		}
+		
+		}
 }
