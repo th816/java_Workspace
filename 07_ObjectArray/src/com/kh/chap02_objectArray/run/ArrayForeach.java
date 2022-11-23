@@ -63,7 +63,7 @@ public class ArrayForeach {
 	Scanner sc = new Scanner(System.in);
 	String series = sc.nextLine();
 	
-	int count =0;
+	int count = 0;
 	
 	for(Phone phone :  phones) {
 		if(phone.getSeries().equals(series)) {
